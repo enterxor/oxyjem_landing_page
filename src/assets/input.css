@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    a {
+        @apply text-linkgreen no-underline duration-[0.4s];
+    }
+    a:hover {
+         @apply bg-lingbggreen;
+    }
+
+    a:visited {
+         @apply text-center;
+     }
+}
