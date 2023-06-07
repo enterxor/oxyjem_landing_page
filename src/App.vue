@@ -293,124 +293,62 @@ Whether you need help with cloud infrastructure, containerization, or automating
 <!--    </div>-->
 <!--    </section>-->
 
-    <section class="bg-white dark:bg-gray-900">
-    <div class="container mx-auto px-6 py-10">
-        <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">What clients saying</h1>
-
-        <div class="mx-auto mt-6 flex justify-center">
-        <span class="inline-block h-1 w-40 rounded-full bg-blue-500"></span>
-        <span class="mx-1 inline-block h-1 w-3 rounded-full bg-blue-500"></span>
-        <span class="inline-block h-1 w-1 rounded-full bg-blue-500"></span>
-        </div>
-
-        <div class="mx-auto mt-16 flex max-w-6xl items-start">
-        <button class="hidden rounded-full border p-2 text-gray-800 transition-colors duration-300 hover:bg-gray-100 rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 lg:block">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-            </svg>
-        </button>
-
-        <div>
-            <p class="flex items-center text-center text-gray-500 lg:mx-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quam. Odio voluptatem officiis eos illo! Pariatur, totam alias. Beatae accusamus earum quos obcaecati minima molestias. Possimus minima dolores itaque! Esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates fugiat corrupti laudantium dolores reiciendis pariatur esse quod nihil quia cupiditate debitis quisquam nemo, accusamus animi explicabo? Architecto, unde laboriosam?</p>
-
-            <div class="mt-8 flex flex-col items-center justify-center">
-            <img class="h-14 w-14 rounded-full object-cover" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-
-            <div class="mt-4 text-center">
-                <h1 class="font-semibold text-gray-800 dark:text-white">Mia Brown</h1>
-                <span class="text-sm text-gray-500 dark:text-gray-400">Marketer</span>
-            </div>
-            </div>
-        </div>
-
-        <button class="hidden rounded-full border p-2 text-gray-800 transition-colors duration-300 hover:bg-gray-100 rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 lg:block">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-        </button>
-        </div>
-    </div>
-    </section>
 
     <section class="bg-white dark:bg-gray-900">
     <div class="container mx-auto px-6 py-10">
         <div class="text-center">
-        <h1 class="text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">From the blog</h1>
-
-        <p class="mx-auto mt-4 max-w-lg text-gray-500">Salami mustard spice tea fridge authentic Chinese food dish salt tasty liquor. Sweet savory foodtruck pie.</p>
+        <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl ">What we <div class="text-blue-500 inline">offer</div></h1>
         </div>
 
-        <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
+        <div class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 lg:grid-cols-3">
+        <div class="m-auto">
+            <div class="relative">
+            <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon1.svg" alt="" />
+
+            </div>
+            <h1 class="mt-6 text-2xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+        </div>
         <div>
             <div class="relative">
-            <img class="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+            <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon2.svg" alt="" />
 
-            <div class="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
-                <img class="h-10 w-10 rounded-full object-cover object-center" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-
-                <div class="mx-4">
-                <h1 class="text-sm text-gray-700 dark:text-gray-200">Tom Hank</h1>
-                <p class="text-sm text-gray-500 dark:text-gray-400">Creative Director</p>
-                </div>
             </div>
-            </div>
-
             <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
-
-            <hr class="my-6 w-32 text-blue-500" />
-
-            <p class="text-sm text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores praesentium, alias nam? Tempore</p>
-
-            <a href="#" class="mt-4 inline-block text-blue-500 underline hover:text-blue-400">Read more</a>
         </div>
-
         <div>
             <div class="relative">
-            <img class="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+            <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon3.svg" alt="" />
 
-            <div class="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
-                <img class="h-10 w-10 rounded-full object-cover object-center" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
-
-                <div class="mx-4">
-                <h1 class="text-sm text-gray-700 dark:text-gray-200">arthur melo</h1>
-                <p class="text-sm text-gray-500 dark:text-gray-400">Creative Director</p>
-                </div>
             </div>
-            </div>
-
-            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">All the features you want to know</h1>
-
-            <hr class="my-6 w-32 text-blue-500" />
-
-            <p class="text-sm text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores praesentium, alias nam? Tempore</p>
-
-            <a href="#" class="mt-4 inline-block text-blue-500 underline hover:text-blue-400">Read more</a>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
         </div>
-
         <div>
             <div class="relative">
-            <img class="h-64 w-full rounded-lg object-cover object-center lg:h-80" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="" />
+            <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon4.svg" alt="" />
 
-            <div class="absolute bottom-0 flex bg-white p-3 dark:bg-gray-900">
-                <img class="h-10 w-10 rounded-full object-cover object-center" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
-
-                <div class="mx-4">
-                <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia. Anderson</h1>
-                <p class="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
-                </div>
             </div>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+        </div>
+                <div>
+            <div class="relative">
+            <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon5.svg" alt="" />
+
             </div>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+        </div>
+        <div>
+            <div class="relative">
+            <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon6.svg" alt="" />
 
-            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">Which services you get from Meraki UI</h1>
-
-            <hr class="my-6 w-32 text-blue-500" />
-
-            <p class="text-sm text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores praesentium, alias nam? Tempore</p>
-
-            <a href="#" class="mt-4 inline-block text-blue-500 underline hover:text-blue-400">Read more</a>
+            </div>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
         </div>
         </div>
     </div>
+      <div class="bg-blue-100">
+        <p class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">Aaaaand <img src="@/assets/icon7.svg" alt=""></p>
+      </div>
+      
     </section>
 
     <div class="bg-white dark:bg-gray-900">
