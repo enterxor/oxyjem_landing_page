@@ -358,10 +358,11 @@ Whether you need help with cloud infrastructure, containerization, or automating
     </div>
 
 
-    <footer class="bg-white dark:bg-gray-900">
+</main>
+    <footer class="bg-black dark:bg-gray-900 w-screen relative bottom-0 left-0">
     <div class="container mx-auto px-6 py-12">
         <div class="md:-mx-3 md:flex md:items-center md:justify-between">
-        <h1 class="text-3xl font-semibold tracking-tight text-gray-800 dark:text-white md:mx-3 xl:text-4xl">Subscribe our newsletter to get update.</h1>
+        <h1 class="text-3xl font-semibold tracking-tight text-white dark:text-gray-800 md:mx-3 xl:text-4xl">Subscribe our newsletter to get update.</h1>
 
         <div class="mt-6 shrink-0 md:mx-3 md:mt-0 md:w-auto">
             <a href="#" class="inline-flex w-full items-center justify-center rounded-lg bg-gray-800 px-4 py-2 text-sm text-white duration-300 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
@@ -426,7 +427,6 @@ Whether you need help with cloud infrastructure, containerization, or automating
         </div>
     </div>
     </footer>
-</main>
 
 </template>
 
