@@ -90,13 +90,13 @@ function toggleMenuOpen() {
 
     <section class="bg-white dark:bg-gray-900">
     <div class="container mx-auto px-32 py-10">
-        <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl ">Our <b class="text-blue-500">team</b></h1>
+        <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl ">Our <div class="text-blue-500 inline">team</div></h1>
 
         <p class="mt-4 text-center text-gray-500 dark:text-gray-300">Oxyjem is a strong consultancy and professional DevOps services provider that helps organizations worldwide turn innovative technologies into products with a sustainable competitive advantage. We offer strategy consulting, full-cycle project support, hands-on implementation, and management.
 Our team of experienced DevOps professionals specializes in using technologies such as Terraform, Kubernetes, and Docker to help our clients streamline their development workflows, reduce operational costs, and accelerate time to market.
 Whether you need help with cloud infrastructure, containerization, or automating your deployment pipelines, we have the expertise and experience to deliver customized solutions that meet your specific needs.</p>
 
-       <img class="h-auto w-full rounded-xl object-cover lg:w-4/5" src="@/assets/illustration02.svg"  alt="Team"/>
+       <img class="h-auto w-full rounded-xl object-cover lg:w-4/5 lg:m-auto" src="@/assets/illustration02.svg"  alt="Team"/>
 <!--        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">-->
 <!--        <div>-->
 <!--            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80" alt="" />-->
