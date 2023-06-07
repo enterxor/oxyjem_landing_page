@@ -23,7 +23,7 @@ function toggleMenuOpen() {
     <nav  class="container mx-auto p-6 px-[112px] lg:flex lg:items-center lg:justify-between">
         <div class="flex items-center justify-between ">
         <div class="flex lg:mr-[80px]">
-              <img src="src/assets/logo.svg" alt="Logo" >
+              <img src="@/assets/logo.svg" alt="Logo" >
               <a class="text-2xl font-bold text-gray-800 hover:text-gray-700 dark:text-white dark:hover:text-gray-300 lg:text-3xl" href="#">Oxyjem            </a>
         </div>
 
@@ -83,7 +83,7 @@ function toggleMenuOpen() {
         <div class="mt-10 flex justify-center">
           
 
-        <img class="h-96 w-full rounded-xl object-cover lg:w-4/5" src="src/assets/illustration01.svg"  alt="Team"/>
+        <img class="h-96 w-full rounded-xl object-cover lg:w-4/5" src="@/assets/illustration01.svg"  alt="Team"/>
         </div>
     </div>
     </section>
@@ -96,25 +96,26 @@ function toggleMenuOpen() {
 Our team of experienced DevOps professionals specializes in using technologies such as Terraform, Kubernetes, and Docker to help our clients streamline their development workflows, reduce operational costs, and accelerate time to market.
 Whether you need help with cloud infrastructure, containerization, or automating your deployment pipelines, we have the expertise and experience to deliver customized solutions that meet your specific needs.</p>
 
-        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">
-        <div>
-            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80" alt="" />
-            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Best website collections</h2>
-            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Website</p>
-        </div>
+       <img class="h-auto w-full rounded-xl object-cover lg:w-4/5" src="@/assets/illustration02.svg"  alt="Team"/>
+<!--        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">-->
+<!--        <div>-->
+<!--            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80" alt="" />-->
+<!--            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Best website collections</h2>-->
+<!--            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Website</p>-->
+<!--        </div>-->
 
-        <div>
-            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
-            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Block of Ui kit collections</h2>
-            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Ui kit</p>
-        </div>
+<!--        <div>-->
+<!--            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />-->
+<!--            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Block of Ui kit collections</h2>-->
+<!--            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Ui kit</p>-->
+<!--        </div>-->
 
-        <div>
-            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Ton’s of mobile mockup</h2>
-            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Mockups</p>
-        </div>
-        </div>
+<!--        <div>-->
+<!--            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />-->
+<!--            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Ton’s of mobile mockup</h2>-->
+<!--            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Mockups</p>-->
+<!--        </div>-->
+<!--        </div>-->
     </div>
     </section>
 
