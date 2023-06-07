@@ -11,7 +11,10 @@ module.exports = {
                 textcolor: 'var(--color-text)',
                 bgcolor: 'var(--color-background)',
                 heading: 'var(--color-heading)'
-            }
+            },
+              backgroundImage: {
+                'rocket': "url('@/assets/bg1.svg')",
+              }
     },
   },
   plugins: [],
