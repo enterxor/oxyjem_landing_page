@@ -18,7 +18,7 @@ function toggleMenuOpen() {
 </script>
 
 <template>
-  <main>
+  <main class="">
     <section class="bg-white dark:bg-gray-900">
     <nav  class="container mx-auto p-6 px-[112px] lg:flex lg:items-center lg:justify-between">
         <div class="flex items-center justify-between ">
@@ -75,7 +75,7 @@ function toggleMenuOpen() {
         <div class="mx-auto max-w-lg">
         <h1 class="text-3xl font-bold text-gray-800 dark:text-white lg:text-4xl">We Build Your</h1>
         <h1 class="text-3xl font-bold text-gray-800 dark:text-white lg:text-4xl"> <p class="text-blue-500">Cloud Infrastructure</p></h1>
-        <p class="mt-6 text-gray-500 dark:text-gray-300">DevOps Solutions, System administration, Software development,  DevOps Solutions, System administration, Software development, Private cloud and infrastructure providerPrivate cloud and infrastructure provider</p>
+        <p class="mt-6 text-gray-500 dark:text-gray-300">DevOps Solutions, System administration, Software development, DevOps Solutions, System administration, Software development, Private cloud and infrastructure providerPrivate cloud and infrastructure provider</p>
         <button class="mt-6 rounded-lg bg-blue-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-blue-500 focus:outline-none lg:mx-0 lg:w-auto">Read more</button>
 <!--        <p class="mt-3 text-sm text-gray-400">No credit card required</p>-->
         </div>
@@ -306,42 +306,42 @@ Whether you need help with cloud infrastructure, containerization, or automating
             <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon1.svg" alt="" />
 
             </div>
-            <h1 class="mt-6 text-2xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+            <h1 class="mt-6 text-2xl font-semibold text-gray-800 dark:text-white">DevOps solutions</h1>
         </div>
-        <div>
+        <div class="m-auto">
             <div class="relative">
             <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon2.svg" alt="" />
 
             </div>
-            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">NetOps</h1>
         </div>
-        <div>
+        <div class="m-auto">
             <div class="relative">
             <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon3.svg" alt="" />
 
             </div>
-            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">System Administration</h1>
         </div>
-        <div>
+        <div class="m-auto">
             <div class="relative">
             <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon4.svg" alt="" />
 
             </div>
-            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">Software Development</h1>
         </div>
-                <div>
+                <div class="m-auto">
             <div class="relative">
             <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon5.svg" alt="" />
 
             </div>
-            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">Private clouds</h1>
         </div>
-        <div>
+        <div class="m-auto">
             <div class="relative">
             <img class="h-32 w-auto rounded-lg object-cover object-center lg:h-32" src="@/assets/icon6.svg" alt="" />
 
             </div>
-            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">What do you want to know about UI</h1>
+            <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">Infrastructure provider</h1>
         </div>
         </div>
     </div>
@@ -353,7 +353,7 @@ Whether you need help with cloud infrastructure, containerization, or automating
 
     <div class="bg-white dark:bg-gray-900">
     <div class="container mx-auto px-6 py-8">
-        <div class="rounded-xl h-[224px] bg-rocket bg-no-repeat"></div>
+        <div class="rounded-xl h-[224px] bg-rocket bg-no-repeat bg-cover"></div>
     </div>
     </div>
 
