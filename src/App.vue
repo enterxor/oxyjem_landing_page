@@ -66,7 +66,7 @@ function toggleMenuOpen() {
     
     <section class="bg-white dark:bg-gray-900">
       <div class="container mx-auto py-16 text-center">
-          <div class="">
+          <div>
             <h1 class="text-6xl font-bold text-gray-800 dark:text-white">
               We Build Your <p class="text-blue-500">Cloud Infrastructure</p>
             </h1>
@@ -75,12 +75,13 @@ function toggleMenuOpen() {
               Private cloud and infrastructure provider
             </p>
             <button class="mt-10 rounded-full bg-blue-600 px-6 py-2.5 text-center text-sm font-medium leading-5 text-white hover:bg-blue-500 focus:outline-none lg:mx-0 lg:w-auto">Read more</button>
-            </div>
-  
-            <img class="mt-24 object-none overflow-visible	" src="@/assets/illustration01.svg"  alt="Team"/>
-
+          </div>
+            
+          <div class="flex flex-col items-center">
+            <img class="max-w-fit" src="@/assets/illustration01.svg"  alt="Team"/>
+          </div>
       </div>
-      <div class="container mx-auto pt-40">
+      <div class="container mx-auto pt-20">
           <h1 class="text-center text-6xl font-bold text-gray-800 dark:text-white ">
             Our <div class="text-blue-500 inline">team</div>
           </h1>
@@ -94,10 +95,12 @@ function toggleMenuOpen() {
       </div>
     </section>
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900 mt-20">
     <div class="container mx-auto py-10">
         <div>
-          <h1 class="text-center text-6xl font-bold leading-[72px] text-gray-800 dark:text-white ">What we <div class="text-blue-500 inline">do</div></h1>
+          <h1 class="text-center text-6xl font-bold leading-[72px] text-gray-800 dark:text-white ">
+            What we <div class="text-blue-500 inline">do</div>
+          </h1>
           <p class="mt-4 text-center dark:text-gray-300 font-medium leading-normal text-xl">
             We enhance your operational processes and get stability, durability, and <br>
             availability for the core operations with pure-play cloud solutions and tools.
@@ -244,7 +247,7 @@ function toggleMenuOpen() {
         </div>
     </div>
 
-  <div class="bg-white dark:bg-slate-900 mb-20">
+  <div class="bg-white dark:bg-gray-900 mb-20">
     <div class="container mx-auto px-6 py-8">
         <div class="rounded-[1.875rem] h-[144px] bg-blue-50/50 dark:bg-slate-50/10 text-center align-middle flex justify-center py-8">
           <p class="text-3xl font-bold text-gray-800 dark:text-white">Aaaaand 
@@ -254,8 +257,8 @@ function toggleMenuOpen() {
     </div>
   </div>
   
-  <div class="bg-white dark:bg-gray-900 mb-20">
-    <div class="container mx-auto px-6 py-10">
+  <div class="bg-white dark:bg-gray-900">
+    <div class="container mx-auto px-6 py-10 mb-20">
         <div class="rounded-[1.875rem] h-[224px] p-14 bg-rocket bg-no-repeat bg-cover flex">
           <div class="min-w-fit text-white text-5xl font-bold">Looking to collaborate?<br> Let’s get in touch!</div>
           <div class="flex justify-end items-center w-full">
