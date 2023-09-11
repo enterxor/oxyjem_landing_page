@@ -22,23 +22,23 @@ function toggleMenuOpen() {
     <section class="bg-white dark:bg-gray-900">
     <nav  class="container mx-auto p-6 px-[112px] lg:flex lg:items-center lg:justify-between">
         <div class="flex items-center justify-between ">
-        <div class="flex lg:mr-[80px]">
-              <img src="@/assets/logo.svg" alt="Logo" >
-              <a class="text-2xl font-bold text-gray-800 hover:text-gray-700 dark:text-white dark:hover:text-gray-300 lg:text-3xl" href="#">Oxyjem            </a>
-        </div>
+          <div class="flex lg:mr-[80px]">
+                <img src="@/assets/logo.svg" alt="Logo" >
+                <a class="text-2xl font-bold text-gray-800 hover:text-gray-700 dark:text-white dark:hover:text-gray-300 lg:text-3xl" href="#">Oxyjem            </a>
+          </div>
 
-        <!-- Mobile menu button -->
-        <div class="flex lg:hidden">
-            <button @click="toggleMenuOpen(); console.log(state.isOpen)" type="button" class="text-gray-500 hover:text-gray-600 focus:text-gray-600 focus:outline-none dark:text-gray-200 dark:hover:text-gray-400 dark:focus:text-gray-400" aria-label="toggle menu">
-            <svg v-if="!state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-            </svg>
+          <!-- Mobile menu button -->
+          <div class="flex lg:hidden">
+              <button @click="toggleMenuOpen(); console.log(state.isOpen)" type="button" class="text-gray-500 hover:text-gray-600 focus:text-gray-600 focus:outline-none dark:text-gray-200 dark:hover:text-gray-400 dark:focus:text-gray-400" aria-label="toggle menu">
+              <svg v-if="!state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+              </svg>
 
-            <svg v-if="state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-            </button>
-        </div>
+              <svg v-if="state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+              </button>
+          </div>
         </div>
 
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
@@ -65,7 +65,7 @@ function toggleMenuOpen() {
                 <a class="transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mr-8 lg:ml-2" href="#">Eng</a>
 
               </div>
-              <a class=" mt-4 block rounded-lg bg-blue-600 px-6 py-2.5 text-center font-medium capitalize leading-5 text-white hover:bg-blue-500 lg:mt-0 lg:w-auto" href="#"> Contact us </a>
+              <a class=" block rounded-full bg-white px-5 py-3 text-xl text-center  font-medium capitalize leading-5 text-black hover:bg-gray-100 h-13 border-gray-500 border-solid border-2" href="#"> Contact us </a>
             </div>
           </div>
         </div>
@@ -257,7 +257,7 @@ Whether you need help with cloud infrastructure, containerization, or automating
         <div class="rounded-[1.875rem] h-[224px] p-14 bg-rocket bg-no-repeat bg-cover flex">
           <div class="min-w-fit text-white text-5xl font-bold">Looking to collaborate?<br> Let’s get in touch!</div>
           <div class="flex justify-end items-center w-full">
-            <a class=" block rounded-full bg-white px-5 py-3 text-xl text-center  font-semibold capitalize leading-5 text-black hover:bg-gray-500 h-13" href="#"> Let's go!` </a>
+            <a class=" block rounded-full bg-white px-5 py-3 text-xl text-center  font-semibold capitalize leading-5 text-black hover:bg-gray-500 h-13" href="#"> Let's go! </a>
           </div>
         </div>
     </div>
@@ -265,74 +265,97 @@ Whether you need help with cloud infrastructure, containerization, or automating
   </section>
 
 </main>
-    <footer class="bg-black dark:bg-gray-900 w-screen relative bottom-0 left-0">
-    <div class="container mx-auto px-6 py-12">
-        <div class="md:-mx-3 md:flex md:items-center md:justify-between">
-        <h1 class="text-3xl font-semibold tracking-tight text-white dark:text-gray-800 md:mx-3 xl:text-4xl">Subscribe our newsletter to get update.</h1>
-
-        <div class="mt-6 shrink-0 md:mx-3 md:mt-0 md:w-auto">
-            <a href="#" class="inline-flex w-full items-center justify-center rounded-lg bg-gray-800 px-4 py-2 text-sm text-white duration-300 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
-            <span class="mx-2">Sign Up Now</span>
-
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-2 h-6 w-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-            </svg>
-            </a>
+<footer class="bg-black text-white dark:bg-gray-900 w-screen relative bottom-0 left-0">
+  <div class="container mx-auto px-6 py-20">
+    <div class="flex flex-row gap-8 mb-14">
+      
+      <div class="basis-1/4">
+        <div class="flex mb-8 items-center">
+                  <img src="@/assets/logo2.svg" alt="Logo" >
+                  <a class="ml-2 text-xl font-semibold text-white dark:text-white" href="#">Oxyjem            </a>
         </div>
+        <div class="w-[280px] text-base font-normal leading-6">
+          Oxyjem is a multi-cloud consulting company, delivering innovative DevOps solutions, System Administration, Software Development, Private Clouds and Infrastructure provider
         </div>
+      </div>
 
-        <hr class="my-6 border-gray-200 dark:border-gray-700 md:my-10" />
+      <div class="basis-1/4">
+        <div class="mb-8 leading-relaxed font-medium text-xl">Contacts</div>
+        <ul>
+          <li><img class="inline" src="@/assets/icon10.svg"> Georgia, Tbilisi, 12 str.</li>
+          <li><img class="inline" src="@/assets/icon11.svg"> hello@oxyjem.com</li>
+          <li><img class="inline" src="@/assets/icon12.svg"> +995 555 55 55</li>
+        </ul>
+      </div>
 
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <div>
-            <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+      <div class="basis-1/4">
+        <div class="mb-8 leading-relaxed font-medium text-xl">Company</div>
+        <ul>
+          <li>About</li>
+          <li>Services</li>
+          <li>What we offer</li>
+        </ul>
+      </div>
 
-            <div class="mt-5 flex flex-col items-start space-y-2">
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Home</a>
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Who We Are</a>
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Our Philosophy</a>
+      <div class="basis-1/4">
+        <div class="mb-8 leading-relaxed font-medium text-xl">
+          Subscribe for updates
+        </div>
+        <div class="mb-8">
+
+          
+          <div class="flex items-center max-w-md mx-auto bg-white rounded-lg " x-data="{ search: '' }">
+            <div class="w-full">
+                <input type="email" class="w-full px-4 py-1 text-gray-800 rounded-full focus:outline-none"
+                    placeholder="E-mail">
             </div>
-        </div>
-
-        <div>
-            <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
-
-            <div class="mt-5 flex flex-col items-start space-y-2">
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Retail & E-Commerce</a>
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Information Technology</a>
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Finance & Insurance</a>
+            <div>
+                <button type="submit" class="flex items-center bg-blue-500 justify-center w-12 h-12 text-white rounded-r-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="14" viewBox="0 0 23 14" fill="none">
+                    <g clip-path="url(#clip0_208_4220)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6916 0.989193L22.1009 6.39856C22.4329 6.7305 22.4329 7.26869 22.1009 7.60064L16.6916 13.01C16.3596 13.342 15.8214 13.342 15.4895 13.01C15.1576 12.6781 15.1576 12.1399 15.4895 11.808L19.4478 7.8496H1.4999C1.03046 7.8496 0.649902 7.46904 0.649902 6.9996C0.649902 6.53016 1.03046 6.1496 1.4999 6.1496H19.4478L15.4895 2.19127C15.1575 1.85933 15.1575 1.32114 15.4895 0.989193C15.8214 0.657248 16.3596 0.657248 16.6916 0.989193Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_208_4220">
+                    <rect width="22" height="14" fill="white" transform="translate(0.5)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </button>
             </div>
+          </div>
+
         </div>
-
-        <div>
-            <p class="font-semibold text-gray-800 dark:text-white">Services</p>
-
-            <div class="mt-5 flex flex-col items-start space-y-2">
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Translation</a>
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Proofreading & Editing</a>
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Content Creation</a>
-            </div>
+        <div class="flex flex-row gap-4">
+          <div>
+            <img src="@/assets/icon8.svg" alt="" srcset=""/>
+          </div>
+          <div>
+            <img src="@/assets/icon9.svg" alt="" srcset=""/>
+          </div>
         </div>
-
-        <div>
-            <p class="font-semibold text-gray-800 dark:text-white">Contact Us</p>
-
-            <div class="mt-5 flex flex-col items-start space-y-2">
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">+880 768 473 4978</a>
-            <a href="#" class="text-gray-600 transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">info@merakiui.com</a>
-            </div>
-        </div>
-        </div>
-
-        <hr class="my-6 border-gray-200 dark:border-gray-700 md:my-10" />
-
-        <div class="flex flex-col items-center justify-between sm:flex-row">
-        <a href="#" class="text-2xl font-bold text-gray-800 transition-colors duration-300 hover:text-gray-700 dark:text-white dark:hover:text-gray-300">Brand</a>
-
-        <p class="mt-4 text-sm text-gray-500 dark:text-gray-300 sm:mt-0">© Copyright 2021. All Rights Reserved.</p>
-        </div>
+      </div>
     </div>
-    </footer>
+
+    <hr class="bg-gray-600 mb-3"/>
+
+    <div class="flex flex-row justify-between p-4 font-normal">
+      <div>Copyright © 2023. Oxyjem. All rights reserved</div>
+      <div class="flex flex-row gap-4">
+        <div class="underline">
+          Privacy Policy
+        </div>
+        <div class="underline" >
+          Terms of Use
+        </div>
+      </div>
+      <div>
+        Created by
+        <div class="bg-blue-500 rounded-md inline p-3">Mihail Nezhnik</div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </template>
 
