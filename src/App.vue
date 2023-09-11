@@ -77,7 +77,6 @@ function toggleMenuOpen() {
         <h1 class="text-3xl font-bold text-gray-800 dark:text-white lg:text-4xl"> <p class="text-blue-500">Cloud Infrastructure</p></h1>
         <p class="mt-6 text-gray-500 dark:text-gray-300">DevOps Solutions, System administration, Software development, DevOps Solutions, System administration, Software development, Private cloud and infrastructure providerPrivate cloud and infrastructure provider</p>
         <button class="mt-6 rounded-lg bg-blue-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-blue-500 focus:outline-none lg:mx-0 lg:w-auto">Read more</button>
-<!--        <p class="mt-3 text-sm text-gray-400">No credit card required</p>-->
         </div>
 
         <div class="mt-10 flex justify-center">
@@ -93,29 +92,10 @@ function toggleMenuOpen() {
         <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl ">Our <div class="text-blue-500 inline">team</div></h1>
 
         <p class="mt-4 text-center text-gray-500 font-medium dark:text-gray-300">Oxyjem is a strong consultancy and professional DevOps services provider that helps organizations worldwide turn innovative technologies into products with a sustainable competitive advantage. We offer strategy consulting, full-cycle project support, hands-on implementation, and management. <br>
-Our team of experienced DevOps professionals specializes in using technologies such as Terraform, Kubernetes, and Docker to help our clients streamline their development workflows, reduce operational costs, and accelerate time to market. <br>
-Whether you need help with cloud infrastructure, containerization, or automating your deployment pipelines, we have the expertise and experience to deliver customized solutions that meet your specific needs.</p>
+<br> Our team of experienced DevOps professionals specializes in using technologies such as Terraform, Kubernetes, and Docker to help our clients streamline their development workflows, reduce operational costs, and accelerate time to market. <br>
+<br> Whether you need help with cloud infrastructure, containerization, or automating your deployment pipelines, we have the expertise and experience to deliver customized solutions that meet your specific needs.</p>
 
        <img class="h-auto w-full rounded-xl object-cover lg:w-4/5 lg:m-auto" src="@/assets/illustration02.svg"  alt="Team"/>
-<!--        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">-->
-<!--        <div>-->
-<!--            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80" alt="" />-->
-<!--            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Best website collections</h2>-->
-<!--            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Website</p>-->
-<!--        </div>-->
-
-<!--        <div>-->
-<!--            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />-->
-<!--            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Block of Ui kit collections</h2>-->
-<!--            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Ui kit</p>-->
-<!--        </div>-->
-
-<!--        <div>-->
-<!--            <img class="h-96 w-full rounded-lg object-cover" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />-->
-<!--            <h2 class="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Ton’s of mobile mockup</h2>-->
-<!--            <p class="mt-2 text-lg uppercase tracking-wider text-blue-500 dark:text-blue-400">Mockups</p>-->
-<!--        </div>-->
-<!--        </div>-->
     </div>
     </section>
     <section class="bg-white dark:bg-gray-900">
@@ -242,9 +222,9 @@ Whether you need help with cloud infrastructure, containerization, or automating
         </div>
     </div>
 
-  <div class="bg-white dark:bg-gray-900">
+  <div class="bg-white dark:bg-slate-900">
     <div class="container mx-auto px-6 py-8">
-        <div class="rounded-[1.875rem] h-[144px] bg-blue-50/50 text-center align-middle flex justify-center py-8">
+        <div class="rounded-[1.875rem] h-[144px] bg-blue-50/50 dark:bg-slate-50/10 text-center align-middle flex justify-center py-8">
           <p class="text-3xl font-bold text-gray-800 dark:text-white">Aaaaand 
             <img class='inline mx-8' src="@/assets/icon7.svg" alt="" />
           </p>
