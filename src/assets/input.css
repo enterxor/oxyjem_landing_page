@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    a {
+    /* a {
         @apply text-linkgreen no-underline duration-[0.4s];
     }
     a:hover {
@@ -12,5 +12,5 @@
 
     a:visited {
          @apply text-center;
-     }
+     } */
 }
