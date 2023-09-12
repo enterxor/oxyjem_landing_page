@@ -18,48 +18,48 @@ function toggleMenuOpen() {
 </script>
 
 <template>
-  <main class="">
+  <main class="w-screen">
     <section class="bg-white dark:bg-gray-900">
-      <nav  class="container mx-auto p-6 px-[112px] lg:flex lg:items-center lg:justify-between">
-          <div class="flex items-center justify-between ">
-            <div class="mr-20 whitespace-nowrap">
-                  <img class="inline-block" src="@/assets/logo.svg" alt="Logo" />
-                  <a class="text-xl align-middle font-bold text-gray-800 dark:text-white dark:hover:text-gray-300" href="#">Oxyjem</a>
-            </div>
-
-            <!-- Mobile menu button -->
-            <div class="flex lg:hidden">
-                <button @click="toggleMenuOpen(); console.log(state.isOpen)" type="button" class="text-gray-500 hover:text-gray-600 focus:text-gray-600 focus:outline-none dark:text-gray-200 dark:hover:text-gray-400 dark:focus:text-gray-400" aria-label="toggle menu">
-                <svg v-if="!state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-                </svg>
-
-                <svg v-if="state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-                </button>
-            </div>
+      <nav  class="container mx-auto p-6 lg:px-28 lg:flex lg:items-center lg:justify-between">
+        <div class="flex items-center justify-between ">
+          <div class="mr-20 whitespace-nowrap">
+                <img class="inline-block" src="@/assets/logo.svg" alt="Logo" />
+                <a class="text-xl align-middle font-bold text-gray-800 dark:text-white dark:hover:text-gray-300" href="#">Oxyjem</a>
           </div>
 
-          <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-          <div :class="[state.isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'] " class="absolute inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out dark:bg-gray-900 lg:relative lg:top-0 lg:mt-0 lg:flex lg:w-full lg:translate-x-0 lg:items-center lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent">
-            <div class="flex justify-between w-full items-center">
-              <div class="lg:-px-8 flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0 lg:gap-8 items-center">
-                  <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">Home</a>
-                  <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">About</a>
-                  <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">Services</a>
-                  <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">What we offer</a>
-              </div>
+          <!-- Mobile menu button -->
+          <div class="flex lg:hidden">
+              <button @click="toggleMenuOpen(); console.log(state.isOpen)" type="button" class="text-gray-500 hover:text-gray-600 focus:text-gray-600 focus:outline-none dark:text-gray-200 dark:hover:text-gray-400 dark:focus:text-gray-400" aria-label="toggle menu">
+              <svg v-if="!state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+              </svg>
 
-              <div class="flex w-auto justify-items-end">
-                <div class="flex items-center">
-                  <img src="@/assets/icon13.svg" alt="">
-                  <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mr-8 lg:ml-2" href="#">Eng</a>
-                </div>
-                <a class=" block rounded-full bg-white px-5 py-3 text-xl text-center font-medium leading-5 text-black hover:bg-gray-100 h-13 border-gray-500 border-solid border-[1px]" href="#"> Contact us </a>
+              <svg v-if="state.isOpen" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+              </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+        <div :class="[state.isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'] " class="absolute inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out dark:bg-gray-900 lg:relative lg:top-0 lg:mt-0 lg:flex lg:w-full lg:translate-x-0 lg:items-center lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent">
+          <div class="flex justify-between w-full items-center">
+            <div class="lg:-px-8 flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:space-y-0 lg:gap-8 items-center">
+                <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">Home</a>
+                <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">About</a>
+                <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">Services</a>
+                <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400" href="#">What we offer</a>
+            </div>
+
+            <div class="flex w-auto justify-items-end">
+              <div class="flex items-center">
+                <img src="@/assets/icon13.svg" alt="">
+                <a class="text-xl font-medium transform text-gray-700 transition-colors duration-300 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 lg:mr-8 lg:ml-2" href="#">Eng</a>
               </div>
+              <a class=" block rounded-full bg-white px-5 py-3 text-xl text-center font-medium leading-5 text-black hover:bg-gray-100 h-13 border-gray-500 border-solid border-[1px]" href="#"> Contact us </a>
             </div>
           </div>
+        </div>
       </nav>
 
     </section>
@@ -67,10 +67,10 @@ function toggleMenuOpen() {
     <section class="bg-white dark:bg-gray-900">
       <div class="container mx-auto py-16 text-center">
           <div>
-            <h1 class="text-6xl font-bold text-gray-800 dark:text-white">
+            <h1 class="text-3xl lg:text-6xl font-bold text-gray-800 dark:text-white">
               We Build Your <p class="text-blue-500">Cloud Infrastructure</p>
             </h1>
-            <p class="mt-6 text-2xl font-medium text-gray-500 dark:text-gray-300">
+            <p class="mt-6 text-base lg:text-2xl font-medium text-gray-500 dark:text-gray-300">
               DevOps Solutions, System administration, Software development, <br>
               Private cloud and infrastructure provider
             </p>
@@ -78,15 +78,15 @@ function toggleMenuOpen() {
           </div>
             
           <div class="flex flex-col items-center">
-            <img class="max-w-fit" src="@/assets/illustration01.svg"  alt="Team"/>
+            <img class="object-cover h-[246px] lg:object-none lg:h-auto lg:max-w-fit lg:max-h-fit" src="@/assets/illustration01.svg"  alt="Team"/>
           </div>
       </div>
       <div class="container mx-auto pt-20">
-          <h1 class="text-center text-6xl font-bold text-gray-800 dark:text-white ">
+          <h1 class="text-center text-3xl lg:text-6xl font-bold text-gray-800 dark:text-white ">
             Our <div class="text-blue-500 inline">team</div>
           </h1>
 
-          <p class="mt-4 text-xl font-medium leading-normal text-center dark:text-gray-300">Oxyjem is a strong consultancy and professional DevOps services provider that helps organizations worldwide turn innovative technologies into products with a sustainable competitive advantage. We offer strategy consulting, full-cycle project support, hands-on implementation, and management. <br>
+          <p class="mt-4 text-base lg:text-xl font-medium leading-normal text-center dark:text-gray-300">Oxyjem is a strong consultancy and professional DevOps services provider that helps organizations worldwide turn innovative technologies into products with a sustainable competitive advantage. We offer strategy consulting, full-cycle project support, hands-on implementation, and management. <br>
           <br> Our team of experienced DevOps professionals specializes in using technologies such as Terraform, Kubernetes, and Docker to help our clients streamline their development workflows, reduce operational costs, and accelerate time to market. <br>
           <br> Whether you need help with cloud infrastructure, containerization, or automating your deployment pipelines, we have the expertise and experience to deliver customized solutions that meet your specific needs.
           </p>
@@ -98,16 +98,16 @@ function toggleMenuOpen() {
     <section class="bg-white dark:bg-gray-900 mt-20">
     <div class="container mx-auto py-10">
         <div>
-          <h1 class="text-center text-6xl font-bold leading-[72px] text-gray-800 dark:text-white ">
+          <h1 class="text-center text-3xl lg:text-6xl font-bold leading-[72px] text-gray-800 dark:text-white ">
             What we <div class="text-blue-500 inline">do</div>
           </h1>
-          <p class="mt-4 text-center dark:text-gray-300 font-medium leading-normal text-xl">
+          <p class="mt-4 text-center dark:text-gray-300 font-medium leading-normal text-base lg:text-xl">
             We enhance your operational processes and get stability, durability, and <br>
             availability for the core operations with pure-play cloud solutions and tools.
           </p>
         </div>
 
-        <div class="mt-20 flex items-center gap-8">
+        <div class="mt-20 flex flex-col lg:flex-row items-center gap-8">
           <div class="">
             <img class="max-w-none" src="@/assets/illustration03.svg" alt="">
           </div>
@@ -125,8 +125,11 @@ function toggleMenuOpen() {
           </div>
         </div>
 
-        <div class="flex items-center gap-8">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
           <div class="">
+            <img class="max-w-none" src="@/assets/illustration04.svg" alt="">
+          </div>
+          <div class="lg:-order-1">
             <h1 class="text-left text-5xl leading-relaxed font-bold text-gray-800 dark:text-white">System <div class="inline text-blue-500">administration</div></h1>
             <p class="mt-4 font-medium leading-normal text-xl">
               System Administration services include system and 
@@ -137,12 +140,9 @@ function toggleMenuOpen() {
               standards, processes and measures with guaranteed SLAs
             </p>
           </div>
-          <div class="">
-            <img class="max-w-none" src="@/assets/illustration04.svg" alt="">
-          </div>
         </div>
 
-        <div class="flex items-center gap-8">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
           <div class="">
             <img class="max-w-none" src="@/assets/illustration05.svg" alt="">
           </div>
@@ -158,8 +158,11 @@ function toggleMenuOpen() {
           </div>
         </div>
 
-        <div class="flex items-center gap-8">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
           <div class="">
+            <img class="max-w-none" src="@/assets/illustration06.svg" alt="">
+          </div>
+          <div class="lg:-order-1">
             <h1 class="text-left text-5xl leading-relaxed font-bold text-gray-800 dark:text-white">Provate <div class="inline text-blue-500">clouds</div></h1>
             <p class="mt-4 font-medium leading-normal text-xl">
               We infuse engineering excellence in the design 
@@ -169,12 +172,9 @@ function toggleMenuOpen() {
               solve your unique challenges
             </p>
           </div>
-          <div class="flex items-center justify-center">
-            <img class="max-w-none" src="@/assets/illustration06.svg" alt="">
-          </div>
         </div>
 
-        <div class="flex items-center gap-8">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
           <div class="">
             <img class="max-w-none" src="@/assets/illustration07.svg" alt="">
           </div>
@@ -190,8 +190,11 @@ function toggleMenuOpen() {
           </div>
         </div>
 
-        <div class="flex items-center gap-8">
+        <div class="flex flex-col lg:flex-row items-center gap-8">
           <div class="">
+            <img class="max-w-none" src="@/assets/illustration08.svg" alt="">
+          </div>
+          <div class="lg:-order-1">
             <h1 class="text-left text-5xl leading-relaxed font-bold text-gray-800 dark:text-white">Design <div class="inline text-blue-500">everything</div></h1>
             <p class="mt-4 font-medium leading-normal text-xl">
               We design landing pages, websites, internal systems, CRM, BPM, 
@@ -202,10 +205,6 @@ function toggleMenuOpen() {
               study your needs and goals to create a custom design that reflects 
               your uniqueness and helps you stand out in the market.
             </p>
-          </div>
-
-          <div class="">
-            <img class="max-w-none" src="@/assets/illustration08.svg" alt="">
           </div>
         </div>
     </div>
@@ -259,9 +258,9 @@ function toggleMenuOpen() {
   
   <div class="bg-white dark:bg-gray-900">
     <div class="container mx-auto px-6 py-10 mb-20">
-        <div class="rounded-[1.875rem] h-[224px] p-14 bg-rocket bg-no-repeat bg-cover flex">
-          <div class="min-w-fit text-white text-5xl font-bold">Looking to collaborate?<br> Let’s get in touch!</div>
-          <div class="flex justify-end items-center w-full">
+        <div class="rounded-[1.875rem] h-[224px] p-14 bg-rocket bg-no-repeat bg-cover flex flex-col lg:flex-row">
+          <div class="min-w-fit text-white text-2xl lg:text-5xl font-bold">Looking to collaborate?<br> Let’s get in touch!</div>
+          <div class="flex lg:justify-end items-center w-full">
             <a class=" block rounded-full bg-white px-5 py-3 text-xl text-center  font-semibold capitalize leading-5 text-black hover:bg-gray-500 h-13" href="#"> Let's go! </a>
           </div>
         </div>
@@ -272,7 +271,7 @@ function toggleMenuOpen() {
 </main>
 <footer class="bg-black text-white dark:bg-gray-900 w-screen relative bottom-0 left-0">
   <div class="container mx-auto px-6 py-20">
-    <div class="flex flex-row gap-8 mb-14">
+    <div class="flex flex-col lg:flex-row lg:gap-8 mb-14">
       
       <div class="basis-1/4">
         <div class="flex mb-8 items-center">
@@ -344,9 +343,9 @@ function toggleMenuOpen() {
 
     <hr class="bg-gray-600 mb-3"/>
 
-    <div class="flex flex-row justify-between p-4 font-normal">
+    <div class="flex flex-col lg:flex-row justify-between p-4 font-normal">
       <div>Copyright © 2023. Oxyjem. All rights reserved</div>
-      <div class="flex flex-row gap-4">
+      <div class="flex flex-col lg:flex-row gap-4">
         <div class="underline">
           Privacy Policy
         </div>
@@ -354,9 +353,9 @@ function toggleMenuOpen() {
           Terms of Use
         </div>
       </div>
-      <div>
+      <div class="mt-4">
         Created by
-        <div class="bg-blue-500 rounded-md inline p-3">Mihail Nezhnik</div>
+        <div class="bg-blue-500 rounded-md inline p-3 whitespace-nowrap">Mihail Nezhnik</div>
       </div>
     </div>
   </div>
