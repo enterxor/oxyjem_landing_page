@@ -278,23 +278,23 @@ function toggleMenuOpen() {
                     <img src="@/assets/logo2.svg" alt="Logo" >
                     <a class="ml-2 text-xl font-semibold text-white dark:text-white" href="#">Oxyjem            </a>
           </div>
-          <div class="w-[280px] text-base font-normal leading-6">
+          <div class="lg:w-[280px] text-base font-normal leading-6">
             Oxyjem is a multi-cloud consulting company, delivering innovative DevOps solutions, System Administration, Software Development, Private Clouds and Infrastructure provider
           </div>
         </div>
 
         <div class="basis-1/4 order-3 lg:order-2 pt-8 lg:pt-0">
           <div class="mb-4 lg:mb-8 leading-relaxed font-medium text-xl">Contacts</div>
-          <ul class="flex flex-col gap-2">
+          <ul class="flex flex-col gap-2 md:flex-row md:justify-between lg:justify-normal lg:flex-col">
             <li><img class="inline" src="@/assets/icon10.svg"> Georgia, Tbilisi, 12 str.</li>
             <li><img class="inline" src="@/assets/icon11.svg"> hello@oxyjem.com</li>
             <li><img class="inline" src="@/assets/icon12.svg"> +995 555 55 55</li>
           </ul>
         </div>
 
-        <div class="basis-1/4 order-2 lg:order-3 pt-8 lg:pt-0">
+        <div class="basis-1/4 order-2 lg:order-3 pt-8 md:pt-0">
           <div class="lg:mb-8 leading-relaxed font-medium text-xl invisible lg:visible">Company</div>
-          <ul class="flex flex-col gap-3 text-xl lg:block lg:text-base">
+          <ul class="flex flex-col gap-3 text-xl md:flex-row md:gap-8 lg:block lg:text-base">
             <li>About</li>
             <li>Services</li>
             <li>What we offer</li>
@@ -305,37 +305,37 @@ function toggleMenuOpen() {
           <div class="mb-8 leading-relaxed font-medium text-xl">
             Subscribe for updates
           </div>
-          <div class="mb-8">
+          <div class="md:flex md:flex-row md:gap-10 md:items-start lg:block">
+            <div class="mb-8 ">
+              <div class="flex items-center max-w-md mx-auto bg-white rounded-lg " x-data="{ search: '' }">
+                <div class="w-full">
+                    <input type="email" class="w-full px-4 py-1 text-gray-800 rounded-full focus:outline-none"
+                        placeholder="E-mail">
+                </div>
+                <div>
+                    <button type="submit" class="flex items-center bg-blue-500 justify-center w-12 h-12 text-white rounded-r-lg">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="14" viewBox="0 0 23 14" fill="none">
+                        <g clip-path="url(#clip0_208_4220)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6916 0.989193L22.1009 6.39856C22.4329 6.7305 22.4329 7.26869 22.1009 7.60064L16.6916 13.01C16.3596 13.342 15.8214 13.342 15.4895 13.01C15.1576 12.6781 15.1576 12.1399 15.4895 11.808L19.4478 7.8496H1.4999C1.03046 7.8496 0.649902 7.46904 0.649902 6.9996C0.649902 6.53016 1.03046 6.1496 1.4999 6.1496H19.4478L15.4895 2.19127C15.1575 1.85933 15.1575 1.32114 15.4895 0.989193C15.8214 0.657248 16.3596 0.657248 16.6916 0.989193Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_208_4220">
+                        <rect width="22" height="14" fill="white" transform="translate(0.5)"/>
+                        </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                </div>
+              </div>
 
-            
-            <div class="flex items-center max-w-md mx-auto bg-white rounded-lg " x-data="{ search: '' }">
-              <div class="w-full">
-                  <input type="email" class="w-full px-4 py-1 text-gray-800 rounded-full focus:outline-none"
-                      placeholder="E-mail">
+            </div>
+            <div class="flex flex-row gap-4 md:mt-1">
+              <div>
+                <img src="@/assets/icon8.svg" alt="" srcset=""/>
               </div>
               <div>
-                  <button type="submit" class="flex items-center bg-blue-500 justify-center w-12 h-12 text-white rounded-r-lg">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="14" viewBox="0 0 23 14" fill="none">
-                      <g clip-path="url(#clip0_208_4220)">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6916 0.989193L22.1009 6.39856C22.4329 6.7305 22.4329 7.26869 22.1009 7.60064L16.6916 13.01C16.3596 13.342 15.8214 13.342 15.4895 13.01C15.1576 12.6781 15.1576 12.1399 15.4895 11.808L19.4478 7.8496H1.4999C1.03046 7.8496 0.649902 7.46904 0.649902 6.9996C0.649902 6.53016 1.03046 6.1496 1.4999 6.1496H19.4478L15.4895 2.19127C15.1575 1.85933 15.1575 1.32114 15.4895 0.989193C15.8214 0.657248 16.3596 0.657248 16.6916 0.989193Z" fill="white"/>
-                      </g>
-                      <defs>
-                      <clipPath id="clip0_208_4220">
-                      <rect width="22" height="14" fill="white" transform="translate(0.5)"/>
-                      </clipPath>
-                      </defs>
-                    </svg>
-                  </button>
+                <img src="@/assets/icon9.svg" alt="" srcset=""/>
               </div>
-            </div>
-
-          </div>
-          <div class="flex flex-row gap-4">
-            <div>
-              <img src="@/assets/icon8.svg" alt="" srcset=""/>
-            </div>
-            <div>
-              <img src="@/assets/icon9.svg" alt="" srcset=""/>
             </div>
           </div>
         </div>
