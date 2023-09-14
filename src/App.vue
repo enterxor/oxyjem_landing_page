@@ -307,7 +307,7 @@ function toggleMenuOpen() {
           </div>
           <div class="md:flex md:flex-row md:gap-10 md:items-start lg:block">
             <div class="mb-8 ">
-              <div class="flex items-center max-w-md mx-auto bg-white rounded-lg " x-data="{ search: '' }">
+              <div class="flex items-center max-w-md mx-auto bg-white rounded-lg ">
                 <div class="w-full">
                     <input type="email" class="w-full px-4 py-1 text-gray-800 rounded-full focus:outline-none"
                         placeholder="E-mail">
