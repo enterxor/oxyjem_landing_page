@@ -78,7 +78,7 @@ function toggleMenuOpen() {
             </div>
               
             <div class="flex flex-col items-center mt-10 lg:mt-auto">
-              <img class="object-cover overflow-x-visible h-[200px] lg:object-none lg:h-auto lg:max-w-fit lg:max-h-fit" src="@/assets/illustration01.svg"  alt="Team"/>
+              <img class="object-cover overflow-x-visible h-[200px] sm:h-[485px]" src="@/assets/illustration01.svg"  alt="Team"/>
             </div>
         </div>
         <div class="container mx-auto pt-20 px-4 lg:px-0">
